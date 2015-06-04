@@ -6,6 +6,7 @@ Good for
 
 To install from R (using devtools), copy-paste the following:
 
+```R
 devtoolsInstalled = library("devtools", logical.return = T)
 if ( !devtoolsInstalled ) {
   install.packages("devtools")
@@ -14,3 +15,4 @@ if ( !devtoolsInstalled ) {
 install_github('ChristofferFlensburg/XRank')
 library(XRank)
 ?XRank
+```
